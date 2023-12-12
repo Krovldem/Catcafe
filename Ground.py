@@ -11,15 +11,15 @@ FPS = 24 # frame per second
 clock = pg.time.Clock()
 
 # изображения
-bg_img = pg.image.load('PlayField_cut.png')
-icon_img = pg.image.load('icon.png')
+bg_img = pg.image.load('src/PlayField_cut.png')
+icon_img = pg.image.load('src/icon.png')
 
 display = pg.display.set_mode((screen_width, screen_height))
 pg.display.set_icon(icon_img)
 pg.display.set_caption('КотоКафе')
 
 sys_font = pg.font.SysFont('arial', 34)
-font = pg.font.Font('HARLOWSI.TTF', 48)
+font = pg.font.Font('src/HARLOWSI.TTF', 48)
 
 
 # display.fill('blue', (0, 0, screen_width, screen_height))
